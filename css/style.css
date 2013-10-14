@@ -569,14 +569,23 @@ p {
 }
 
 .logotipo{
-	margin-top:12px;
-	margin-left:0;
+	
+	margin-top: 30px;
+	margin-left: 81px;
+	margin-bottom: 19px;
 }
 
 .logotipo img{
-	margin-left: 17px;
+	width: 65%;
+
+
 }
 
+.logotipo img:hover
+{
+opacity: .4;
+
+}
 .navegacion{
 	margin-top: 38px;
 	margin-left: 7.0%;
@@ -1052,6 +1061,91 @@ padding: 50px 100px 50px 5px;
 
 	
 }
+
+
+div.cuadrito
+{	margin-top: 30px;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+div.minicuadrito1
+{
+	width:33%;
+	display:inline-block;
+	background-image: url("../images/boton-app.png");
+	background-size: 100%;
+	height: 600px;
+background-repeat:no-repeat;
+}
+
+div.minicuadrito1:hover
+{
+background-image: url("../images/2-app.png");
+}
+
+
+div.minicuadrito2
+{
+	width:33%;
+	display:inline-block;
+	background-image: url("../images/boton-design.png");
+	background-size: 100%;
+	height: 600px;
+background-repeat:no-repeat;
+	
+}
+
+div.minicuadrito2:hover
+{
+background-image: url("../images/2-diseno.png");
+}
+
+
+div.minicuadrito3
+{
+	
+	width:33%;
+	display:inline-block;
+	background-image: url("../images/boton-streaming.png");
+	background-size: 100%;
+	height: 600px;
+background-repeat:no-repeat;
+	
+}
+div.minicuadrito3:hover
+{
+background-image: url("../images/2-streaming.png");
+}
+
+
+img.imagen1 
+{
+	width: 100%;
+
+
+
+}
+
+
+img.imagen2 
+{
+	width: 100%
+
+
+}
+
+img.imagen3 
+{
+	width: 100%
+
+
+}
+
+
+
+
 
 
 
