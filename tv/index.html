@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Conexión Tv[On]</title>
+  	<meta charset="utf-8" />
+
+  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame 
+       Remove this if you use the .htaccess -->
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="description" content="Canal de Conexión WEB 360° | Internet + Negocios - Todos los lunes 7:45pm Horario Ciudad de México" />
+  	<meta name="author" content="Conexión Web 360°"/>
+	<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+
+	<link rel="shortcut icon" href="http://conexionew.com/loguitoconexion.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/complementos.css" />
+    <script type="text/javascript" src="../js/jquery-1.7.1.js"></script>
+
+    <meta property="og:title" content="Conexión Web 360° | Conexion Tv[On]"/>
+    <meta property="og:url" content="http://www.conexionew.com/tv"/>
+    <meta property="og:site_name" content="Conexión Web 360°"/>
+    <meta property="fb:admins" content="10151083850065357"/>
+    <meta property="og:description" content="Canal de TV en Conexión WEB 360° | Internet + Negocios - Todos los lunes 7:45pm Horario Ciudad de México"/>
+    <meta property="og:image" content="http://www.conexionew.com/images/conexiontv.png"/>
+</head>
+
+<body>
+	<div id="fb-root"></div>
+<script>
+  
+$(document).ready(function(){ 
+  
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '217071421678331', // App ID
+      channelUrl : 'channel.html', // Channel File
+      status     : true, // check login status
+      cookie     : true, // enable cookies to allow the server to access the session
+      xfbml      : true  // parse XFBML
+    });
+
+    // Código de Iniciación Adicional
+  };
+
+  // Debe leer el SDK asincronicamente
+  (function(d){
+     var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
+     js = d.createElement('script'); js.id = id; js.async = true;
+     js.src = "//connect.facebook.net/en_US/all.js";
+     d.getElementsByTagName('head')[0].appendChild(js);
+   }(document));
+
+});   
+
+</script>
+
+<div id="cuadrocentral">
+	<div class="cuadroconexion">
+		<img src="../images/barraconexion2.png" alt="cuadroconexion" />
+		<img src="../images/conexiontv.png"alt="entrar" />
+	</div>
+	<div id="streaming">
+		<iframe width="420" height="315" src="http://www.youtube.com/embed/qC6talCyRGU" frameborder="0" allowfullscreen></iframe>
+		<br />
+		<br />
+		<br />
+		<a href="https://twitter.com/#!/search/%23conexiontv" target="_blank"><p class="carbon">Chat en Twitter - #conexiontv</p></a>
+		<br />
+		<br />
+	</div>
+
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'search',
+  search: '#conexiontv',
+  interval: 10,
+  title: '',
+  subject: '',
+  width: 900,
+  height: 350,
+  theme: {
+    shell: {
+      background: 'none',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: 'none',
+      color: 'black',
+      links: '#B138C2'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: true,
+    live: true,
+    behavior: 'default'
+  }
+}).render().start();
+</script>
+		
+		<div id="facebookbox">
+				<div class="fb-like-box" data-href="http://www.facebook.com/pages/Conexi%C3%B3n-Web-360/217071421678331" data-width="292" data-height="115" data-show-faces="false" data-stream="false" data-header="false">
+				</div>
+		</div>
+</div>  
+<nav id="navizquierdo">
+			<ul>
+				<li><a href="http://www.conexionew.com/blog">Home</a></li>
+				<li><a href="http://www.conexionew.com/nosotros.html">Equipo</a></li>
+				<li><a href="http://www.conexionew.com/live360.html">Live.360°</a></li>
+				<li><a href="http://www.conexionew.com/learn360.html">Learn.360°</a></li>
+				<li><a href="http://www.conexionew.com/blog">Blog</a></li>
+				<li><a href="http://www.conexionew.com/contacto.html">TV</a></li>
+				<li><a href="http://www.conexionew.com/contacto.html">Tienda</a></li>
+				<li><a href="http://www.conexionew.com/contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+
+
+		
+<div id="botoncompartir">
+	<ul class="social">
+		<li>
+			<div style="margin:10px 0 0 13px;" class="fb-like" data-href="http://www.facebook.com/pages/Conexi%C3%B3n-Web-360/217071421678331" data-send="false" data-layout="box_count" data-width="450" data-show-faces="true"></div>
+		</li>
+		<li>
+		<div style="float:left; margin:10px 0 0 10px;">
+			<div class="g-plusone" data-size="tall" data-href="http://www.conexionew.com"></div>
+		</div>
+		</li>
+		</ul>
+</div>
+<script>
+//     Animación de Navegador Izquierdo
+
+var navHome = $("nav ul li:nth-child(1)").html();
+var navEquipo = $("nav ul li:nth-child(2)").html();
+var navLive = $("nav ul li:nth-child(3)").html();
+var navLearn = $("nav ul li:nth-child(4)").html();
+var navBlog = $("nav ul li:nth-child(5)").html();
+var navTv = $("nav ul li:nth-child(6)").html();
+var navTienda = $("nav ul li:nth-child(7)").html();
+var navContacto = $("nav ul li:nth-child(8)").html();
+$("nav#navizquierdo ul li:nth-child(1)").hover(
+	function(){
+		$(this).html("<a href='http://www.conexionew.com/blog'><img src='/images/logohome.png'></img></a>");
+	},
+	function(){
+		$(this).html(navHome);
+	}
+)
+
+$("nav#navizquierdo ul li:nth-child(2)").hover(
+	function(){
+		$(this).html("<a href='nosotros'><img src='/images/logoequipo.png'></img></a>");
+	},
+	function(){
+		$(this).html(navEquipo);
+	}
+)
+
+$("nav#navizquierdo ul li:nth-child(3)").hover(
+	function(){
+		$(this).html("<a href='live360'><img src='/images/logolive.png'></img></a>");
+	},
+	function(){
+		$(this).html(navLive);
+	}
+)
+
+$("nav#navizquierdo ul li:nth-child(4)").hover(
+	function(){
+		$(this).html("<a href='learn360'><img src='/images/logolearn.png'></img></a>");
+	},
+	function(){
+		$(this).html(navLearn);
+	}
+)
+
+$("nav#navizquierdo ul li:nth-child(5)").hover(
+	function(){
+		$(this).html("<a href='blog'><img src='/images/logoblog.png'></img></a>");
+	},
+	function(){
+		$(this).html(navBlog);
+	}
+)
+
+$("nav#navizquierdo ul li:nth-child(8)").hover(
+	function(){
+		$(this).html("<a href='contacto'><img src='/images/logomail.png'></img></a>");
+	},
+	function(){
+		$(this).html(navContacto);
+	}
+)
+		</script>
+		<script>
+		window.___gcfg = {lang: 'es-419'};
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+  </script>
+</body>
+</html>
