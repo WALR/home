@@ -563,9 +563,11 @@ p {
 
 
 .nosotros{
-	width:80%;
-	margin-left:11.2%;
+	
 	margin-top: 50px;
+	margin-left: 60%;
+
+display: inline-block
 }
 
 .logotipo{
@@ -576,8 +578,25 @@ p {
 }
 
 .logotipo img{
-	width: 65%;
+	width: 20%;
+	margin-left:10%
 
+	
+
+
+
+}
+
+
+.servicios{
+display: inline-block; 
+margin-left: 30px;
+
+}
+
+.contacto{
+display: inline-block; 
+margin-left: 30px;
 
 }
 
@@ -598,7 +617,7 @@ opacity: .4;
 
 .redes img{
 
-	width: 16px;
+	width: 10px;
 }
 
 .redes img:hover{
@@ -660,8 +679,9 @@ border-radius: 10px;
 }
 
 .face{
-	margin-left: 560px;
-	margin-top: 10px;
+	width: 15px;
+	margin-left: 82%;
+	display: inline-block; 
 }
 
 .servicios img:nth-child(1){
@@ -977,6 +997,7 @@ nav div.servicio
 	background: red;
 	display: inline-block;
 }
+
 
 
 nav div.servicio:nth-child(1)
