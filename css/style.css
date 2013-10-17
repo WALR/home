@@ -564,28 +564,25 @@ p {
 
 .nosotros{
 	
-	margin-top: 50px;
-	margin-left: 60%;
+	/* margin-top: 50px; */
+	/* margin-left: 41%; */
 
 display: inline-block
+;
 }
 
 .logotipo{
 	
 	margin-top: 30px;
-	margin-left: 81px;
+	margin-left: 80px;
 	margin-bottom: 19px;
+	display: inline-block;
+	width: 52%;
 }
 
 .logotipo img{
-	width: 20%;
-	margin-left:10%
-
-	
-
-
-
-}
+	width: 30%;
+	margin-left: 18%;}
 
 
 .servicios{
@@ -607,8 +604,11 @@ opacity: .4;
 }
 .navegacion{
 	margin-top: 38px;
-	margin-left: 7.0%;
-	
+	/* margin-left: 7.0%; */
+	font-family: 'Open Sans', sans-serif;
+	display: inline-block;
+	width: 26%;
+	margin-left: 4%;
 }
 
 .navegacion p{
@@ -680,7 +680,7 @@ border-radius: 10px;
 
 .face{
 	width: 15px;
-	margin-left: 82%;
+	/* margin-left: 82%; */
 	display: inline-block; 
 }
 
@@ -1085,7 +1085,7 @@ padding: 50px 100px 50px 5px;
 
 
 div.cuadrito
-{	margin-top: 30px;
+{	margin-top: 73px;
 	width: 70%;
 	margin-left: 15%;
 	margin-right: 15%;
